@@ -1,0 +1,25 @@
+git notes:
+Untracked and staged files
+	untracked : present in local but not tracked i.e. not added to stagged
+	staged :  "after add ." needs to -> "commit" for further -> "push"
+	unmodified : stable we can edit to modified OR rm then untrack them
+git status
+	most important for all files
+git status -s 
+	short status 
+	'M' (green):modified+add .i.e. commited  'M'(red):modified+in local
+git log
+	log book of commits
+
+differentiate
+git diff
+	to check differences between last commit and updated one
+
+git checkout
+	to come back to prior updations use for unwanted updated happened & want to go back
+
+Removing:
+1.'git rm':
+	Remove from folder/local repo as well as from staged
+2.git rm --cached
+	remove only from staged 
