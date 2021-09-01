@@ -16,10 +16,16 @@ git diff
 	to check differences between last commit and updated one
 
 git checkout
-	to come back to prior updations use for unwanted updated happened & want to go back
+	to come back to prior updations use for unwanted updated happened & want to go back last
 
+git checkout -f
+	for all files at once
 Removing:
 1.'git rm':
 	Remove from folder/local repo as well as from staged
 2.git rm --cached
 	remove only from staged 
+
+Restoration
+	git restore --staged todelete.txt
+	git restore todelete.txt
